@@ -4,7 +4,7 @@ set -e
 i=$1
 if [[ $ROUTE_ALL = y* ]]; then
   SUBNET=0.0.0.0/0
-  DNS="DNS = 1.1.1.1, 1.0.0.1"
+  DNS="DNS = 51.158.110.185"
 elif [[ $ROUTE_ALL = n* ]]; then
   SUBNET=10.42.42.0/24
   DNS=""
