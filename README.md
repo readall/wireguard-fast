@@ -15,7 +15,7 @@ You'll need to login to your server. If your username is "ubuntu", and your IP a
 To install, run:
 
 ```bash
-git clone https://github.com/fastai/wireguard-fast.git
+git clone https://github.com/readall/wireguard-fast.git
 cd wireguard-fast
 sudo ./wireguard-fast.sh
 ```
